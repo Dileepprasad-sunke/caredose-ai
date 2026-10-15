@@ -1,0 +1,16 @@
+run = "bash run_replit.sh"
+modules = ["python-3.11", "nodejs-18"]
+
+[nix]
+channel = "stable-23_11"
+
+[env]
+PYTHONPATH = "."
+
+[[ports]]
+localPort = 8000
+externalPort = 80
+
+[[ports]]
+localPort = 5173
+externalPort = 5173
