@@ -3,7 +3,7 @@
  * Connects the React UI to the FastAPI + SQLite backend.
  */
 
-const API_BASE = 'https://caredose-ai-2.onrender.com';
+const API_BASE = 'https://caredose-ai-2.onrender.com/api';
 
 export function getToken() {
   return localStorage.getItem('caredose_token') || '';
